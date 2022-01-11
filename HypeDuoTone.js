@@ -41,7 +41,7 @@ if("HypeDuoTone" in window === false) window['HypeDuoTone'] = (function () {
                 '<feFuncB type="table" tableValues="'+(col1[2]/255)+' '+(col2[2]/255)+'"></feFuncB>'+
                 '<feFuncA type="table" tableValues="0 1"></feFuncA>'+
             '</feComponentTransfer>'+
-        '</filter>'
+        '</filter>'+
         '</svg>';
     }
 
