@@ -11,5 +11,5 @@ Latest version can be linked into your project using the following in the head s
 Version with IDE-Preview:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/worldoptimizer/HypeDuoTone/HypeDuoTone.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/worldoptimizer/HypeSvgFilter/HypeDuoTone.min.js"></script>
 ```
