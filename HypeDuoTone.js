@@ -1,5 +1,5 @@
 /*!
-Hype DuoTone 1.0.1
+Hype DuoTone 1.0.2
 copyright (c) 2021 Max Ziebell, (https://maxziebell.de). MIT-license
 */
 
@@ -7,6 +7,7 @@ copyright (c) 2021 Max Ziebell, (https://maxziebell.de). MIT-license
 * Version-History
 * 1.0.0	Initial release under MIT-license
 * 1.0.1	Added ID mode and delay if registerDuoTone is called before DOM is ready
+* 1.0.2 Removed console.log statements that I left behind
 */
 if("HypeDuoTone" in window === false) window['HypeDuoTone'] = (function () {
     
@@ -15,7 +16,7 @@ if("HypeDuoTone" in window === false) window['HypeDuoTone'] = (function () {
 
     document.addEventListener('DOMContentLoaded', function(){
         DOMContentLoaded = true;
-        cachedCalls.forEach(function(fnc){ fnc();console.log(fnc)});
+        cachedCalls.forEach(function(fnc){ fnc(); });
         cachedCalls = null;
     });
 
@@ -89,7 +90,7 @@ if("HypeDuoTone" in window === false) window['HypeDuoTone'] = (function () {
 	 * @property {String} version Version of the extension
 	 */
 	 var HypeDuoTone = {
-		version: '1.0.1',
+		version: '1.0.2',
 		registerDuoTone: registerDuoTone,
 	};
 
